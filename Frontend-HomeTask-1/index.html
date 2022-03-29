@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="mainHeading" align="center">
+      <h1>My feedback form</h1>
+    </div>
+    <div class="main">
+      <form action="">
+        <ul type="disc">
+          <div class="login-form">
+            <li>
+              <label for="name">Name:</label>
+              <input type="text" id="name" />
+            </li>
+            <li>
+              <label for="email">Email:</label>
+              <input type="email" id="email" />
+            </li>
+            <li>
+              <label for="pw">Password:</label>
+              <input type="password" id="pw" />
+            </li>
+          </div>
+          <br />
+
+          <div class="emotions">
+            <li>
+              <span>Please check all the emotions that apply to you:</span>
+              <ul type="disc">
+                <li><span>Angry</span><input type="checkbox" /></li>
+                <li><span>Sad</span><input type="checkbox" /></li>
+                <li><span>Happy</span><input type="checkbox" /></li>
+                <li><span>Ambivalient</span><input type="checkbox" /></li>
+              </ul>
+            </li>
+          </div>
+
+          <div class="feedbackCheck">
+            <li><span>How satisfied were you with our service?</span></li>
+            <ul type="disc">
+              <li>
+                <span>Very satisfied</span
+                ><input type="radio" name="feedback" />
+              </li>
+              <li>
+                <span>Satisfied</span><input type="radio" name="feedback" />
+              </li>
+              <li>
+                <span>Didn't care</span><input type="radio" name="feedback" />
+              </li>
+              <li>
+                <span>Dissatisfied</span><input type="radio" name="feedback" />
+              </li>
+              <li>
+                <span>Very satisfied</span
+                ><input type="radio" name="feedback" />
+              </li>
+            </ul>
+          </div>
+
+          <div class="comment">
+            <li>
+              <label for="comment">Further comments:</label>
+              <textarea id="comment" cols="20" rows="3"></textarea>
+            </li>
+          </div>
+          <br />
+          <div class="inputFile">
+            <li>
+              <span>Bio photo:</span>
+              <input type="file" accept="image/*" />
+            </li>
+          </div>
+
+          <div class="Location">
+            <li>
+              <label for="location">Location visited:</label>
+              <select id="location">
+                <option value="" selected disabled hidden>
+                  Select location
+                </option>
+                <option value="baki">Baki</option>
+                <option value="qusar">Qusar</option>
+                <option value="fizuli">Fizuli</option>
+                <option value="sumqayit">Sumqayit</option>
+              </select>
+            </li>
+          </div>
+        </ul>
+        <li>
+          <input type="submit" value="submit" />
+        </li>
+      </form>
+    </div>
+  </body>
+</html>
